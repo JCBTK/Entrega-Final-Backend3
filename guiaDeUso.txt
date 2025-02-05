@@ -32,7 +32,7 @@ correo y contraseña del administrador:
   "email": "profe@ejemplo.com",
   "password": "prueba",
 }
-Copia el token generado.
+Copia el token generado
 
 Agrega el token al encabezado de tus solicitudes:
 
