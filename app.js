@@ -1,10 +1,10 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import userRouter from './routes/userRouter.js';
+import userRouter from './src/routes/userRouter.js';
 import passport from 'passport';
 import cookieParser from 'cookie-parser';
 import dotenv from 'dotenv';
-import cartRouter from './routes/cartRouter.js';
+import cartRouter from './src/routes/cartRouter.js';    
 import connectDB from './db.js';
 import logger from './utils/logger.js';
 
