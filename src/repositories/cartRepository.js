@@ -1,5 +1,5 @@
 import cartDAO from "../dao/carts/cartDAO.js";
-import ProductDAO from "../dao/products/productDAO";
+import ProductDAO from "../dao/products/productDAO.js";
 import CartDTO from "../dtos/cartDTO.js";
 import ticketService from "../services/ticketService.js";
 
