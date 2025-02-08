@@ -4,8 +4,8 @@ import userRouter from './src/routes/userRouter.js';
 import passport from 'passport';
 import cookieParser from 'cookie-parser';
 import dotenv from 'dotenv';
-import cartRouter from './src/routes/cartRouter';    
-import connectDB from './src/config/db';
+import cartRouter from './src/routes/cartRouter.js';    
+import connectDB from './src/config/db.js';
 import logger from './src/utils/logger.js';
 
 dotenv.config();
