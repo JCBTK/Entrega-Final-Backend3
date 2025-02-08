@@ -5,8 +5,8 @@ import passport from 'passport';
 import cookieParser from 'cookie-parser';
 import dotenv from 'dotenv';
 import cartRouter from './src/routes/cartRouter.js';    
-import connectDB from './db.js';
-import logger from './utils/logger.js';
+import connectDB from './src/db.js';
+import logger from './src/utils/logger.js';
 
 dotenv.config();
 
