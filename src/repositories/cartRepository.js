@@ -1,5 +1,5 @@
 import cartDAO from "../dao/carts/cartDAO.js";
-import productDAO from "../dao/products/productDAO.js";
+import ProductDAO from "../dao/products/productDAO.js";
 import CartDTO from "../dtos/cartDTO.js";
 import ticketService from "../services/ticketService.js";
 
@@ -71,7 +71,7 @@ class CartRepository {
     }
 
     async validateProductExistence(productId) {
-        const product = await productDAO.getById(productId);
+        const product = await ProductDAO.getById(productId);
         if (!product) {
             throw new Error("Producto no encontrado");
         }
