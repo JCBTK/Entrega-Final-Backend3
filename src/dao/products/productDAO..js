@@ -1,5 +1,5 @@
 import Product from '../../models/productModel.js';
-class ProductDAO {
+class productDAO {
     async getAll() {
         return await Product.find();
     }
