@@ -1,11 +1,33 @@
 {
+  "name": "preentrega-final",
+  "version": "1.0.0",
+  "description": "Entrega final para Coderhouse",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "mocha tests/**/*.test.js --exit --recursive --timeout 5000"
+  },
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "express": "^4.21.1",
-    "express-validator": "^7.2.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.7.3",
-    "passport": "^0.7.0",
-    "passport-jwt": "^4.0.1"
+    "express": "^4.18.2",
+    "mongoose": "^6.0.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "dotenv": "^16.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "helmet": "^6.1.5",
+    "compression": "^1.7.4",
+    "express-rate-limit": "^6.9.0",
+    "winston": "^3.8.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "chai": "^4.3.0",
+    "supertest": "^6.0.0",
+    "nodemon": "^3.0.0",
+    "sinon": "^15.0.0",
+    "chai-http": "^4.4.0"
   }
 }

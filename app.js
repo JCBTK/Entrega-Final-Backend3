@@ -5,10 +5,13 @@ import passport from 'passport';
 import cookieParser from 'cookie-parser';
 import dotenv from 'dotenv';
 import cartRouter from './routes/cartRouter.js';
+import connectDB from './db.js';
+import logger from './utils/logger.js';
 
 dotenv.config();
 
 const app = express();
+
 const url = 'mongodb://127.0.0.1:27017/ecomerc';
 
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
