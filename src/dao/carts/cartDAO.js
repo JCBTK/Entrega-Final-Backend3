@@ -21,4 +21,4 @@ class CartDAO {
     }
 }
 
-export default new cartDAO();
+export default new CartDAO();
