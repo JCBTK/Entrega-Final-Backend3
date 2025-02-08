@@ -1,12 +1,12 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import userRouter from './src/routes/userRouter';
+import userRouter from '../src/routes/userRouter';
 import passport from 'passport';
 import cookieParser from 'cookie-parser';
 import dotenv from 'dotenv';
-import cartRouter from './src/routes/cartRouter';    
-import connectDB from './src/config/db';
-import logger from './src/utils/logger.js';
+import cartRouter from '../src/routes/cartRouter';    
+import connectDB from '../src/config/db';
+import logger from '../src/utils/logger.js';
 
 dotenv.config();
 
